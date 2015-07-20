@@ -7,34 +7,34 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
     <!-- Open Graph Metatags -->
-    <meta name="og:url" content="https://www.farmersbusinessnetwork.com/"/>
-    <meta name="og:type" content="website"/>
-    <meta name="og:site_name" content="Farmers Business Network"/>
-    <meta name="og:title" content="Farmers Business Network (FBN) | Trusted Insights from Real Farmers"/>
-    <meta name="og:description" content="Farm confidently with trusted agronomic insights made possible by connecting real data from real farmers on an unbiased platform."/>
-    <meta name="og:image" content="https://www.farmersbusinessnetwork.com/redesign/img/social/social-mark.png"/>
-    <meta name="og:locale" content="en_US"/>
-
+    <meta name="og:url" content="https://www.farmersbusinessnetwork.com/" />
+    <meta name="og:type" content="website" />
+    <meta name="og:site_name" content="Farmers Business Network" />
+    <meta name="og:title" content="Farmers Business Network (FBN) | Trusted Insights from Real Farmers" />
+    <meta name="og:description" content="Farm confidently with trusted agronomic insights made possible by connecting real data from real farmers on an unbiased platform." />
+    <meta name="og:image" content="https://www.farmersbusinessnetwork.com/redesign/img/social/social-mark.png" />
+    <meta name="og:locale" content="en_US" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 </head>
 
 <body>
-    <p>Hello world!</p>
-
-    <a>Share on FB</a>
-
+    <p>Default og:description:</p>
+    Farm confidently with trusted agronomic insights made possible by connecting real data from real farmers on an unbiased platform.
+    <p>
+        <a>Share on FB</a>
+    </p>
     <script>
-        $('a').click(function() {
-            $('meta[name=og:description]').attr('content', 'I thought you might be interested in Farmers Business Network (FBN)! FBN is a network of the world’s most innovative farmers sharing information with each other to make better decisions. Check out FBN at www.farmersbusinessnetwork.com');
+    $('a').click(function() {
+        $('meta[name="og:description"]').attr('content', 'I thought you might be interested in Farmers Business Network (FBN)! FBN is a network of the world’s most innovative farmers sharing information with each other to make better decisions. Check out FBN at www.farmersbusinessnetwork.com');
 
-            return !window.open(
-                    'https://www.facebook.com/sharer/sharer.php?u=http://georgechetreanu.github.io/',
-                    'pop',
-                    'width=600, height=400, scrollbars=no'
-                );
-        });
+        return !window.open(
+            'https://www.facebook.com/sharer/sharer.php?u=http://georgechetreanu.github.io/',
+            'pop',
+            'width=600, height=400, scrollbars=no'
+        );
+    });
     </script>
 </body>
+
 </html>
